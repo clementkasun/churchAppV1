@@ -2,8 +2,9 @@ package main
 
 import (
 	"embed"
-	"net/http"
 	"fmt"
+	"net/http"
+
 	"github.com/wailsapp/wails/v2"
 	"github.com/wailsapp/wails/v2/pkg/options"
 	"github.com/wailsapp/wails/v2/pkg/options/assetserver"
@@ -23,7 +24,7 @@ func main() {
 
 	// Create application with options
 	err := wails.Run(&options.App{
-		Title:  "ChurchApp1",
+		Title:  "NewDoorOFLifePrayerCentreNarammala",
 		Width:  1024,
 		Height: 768,
 		AssetServer: &assetserver.Options{

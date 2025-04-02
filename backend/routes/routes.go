@@ -3,7 +3,7 @@ package routes
 import (
 	"net/http"
 
-	"github.com/yourproject/controllers"
+	"github.com/clementkasun/churchAppV1/backend/controllers"
 )
 
 // InitializeRoutes - Sets up API routes
